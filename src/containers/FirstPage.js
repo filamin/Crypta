@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Fade from "react-reveal/Fade";
 
 import "../App.css";
 import { Coin } from "../components/Coin/Coin";

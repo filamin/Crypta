@@ -6,7 +6,7 @@
 .coin-row {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   height: 80px;
   width: 900px;
@@ -21,7 +21,7 @@
 
 .coin-names {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 400px;
 }

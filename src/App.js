@@ -7,14 +7,13 @@ import { SecondPage } from "./containers/SecondPage";
 
 function App() {
   return (
-    <div>
-      <div className="coin-app">
-        <Switch>
-          <Redirect exact from="/" to="/firstpage" />
-          <Route exact path="/firstpage" component={FirstPage} />
-          <Route exact path="/secondpage" component={SecondPage} />
-        </Switch>
-      </div>
+    <div className="coin-app">
+      <Switch>
+        <Redirect exact from="/" to="/firstpage" />
+        <Redirect exact from="/Crypta" to="/firstpage" />
+        <Route exact path="/firstpage" component={FirstPage} />
+        <Route exact path="/secondpage" component={SecondPage} />
+      </Switch>
     </div>
   );
 }
